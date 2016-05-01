@@ -27,6 +27,7 @@ function main() {
             }
         }
         $('#output').append($("<li>").text(i + ".)" + spaceMaker(i) + strVal));
+        $('#output').append($("<li>").text("\u00A0"));
     }
 }
 
